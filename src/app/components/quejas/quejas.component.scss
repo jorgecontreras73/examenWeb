@@ -1,0 +1,31 @@
+form{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+li {
+    list-style:none;
+}
+label{
+    display: inline-block;
+    width: 6em;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-right: 1em;
+    width: 120px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+  
+.example-full-width {
+    width: 100%;
+}
+#enviar{
+    width: 100px;
+    height: 40px;
+    margin-left: 150px;
+}

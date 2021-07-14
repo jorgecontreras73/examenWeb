@@ -1,0 +1,15 @@
+<p id="titulo">Mis libros</p>
+<p id="botones">
+    <mat-button-toggle-group aria-label="Font Style">
+
+        <mat-button-toggle [routerLink]="['/']" routerLinkActive="router-link-active" >
+          <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+          Inicio
+        </mat-button-toggle>
+        
+        <mat-button-toggle [routerLink]="['/libros']" routerLinkActive="router-link-active" >Libros</mat-button-toggle>
+
+        <mat-button-toggle [routerLink]="['/quejas']" routerLinkActive="router-link-active" >Quejas</mat-button-toggle>
+      
+    </mat-button-toggle-group>
+</p>

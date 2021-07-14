@@ -1,0 +1,32 @@
+
+    <form class="example-form" >
+        <li>
+        <label>Nombre Completo</label>
+        <mat-form-field appearance="fill">
+          <input matInput >
+        </mat-form-field>
+        </li>
+
+        <li>
+            <label>País</label>
+            <mat-form-field appearance="fill">
+                <mat-label>Select</mat-label>
+                <mat-select>
+                  <mat-option value="one">País 1</mat-option>
+                  <mat-option value="two">País 2</mat-option>
+                </mat-select>
+              </mat-form-field>
+        </li>
+
+        <li>
+            <label>Observación</label>
+            <mat-form-field appearance="fill">
+                <textarea matInput></textarea>
+            </mat-form-field>
+        </li>
+        
+        <li class="button">
+            <button onclick="enviar()" mat-raised-button color="primary" id="enviar">Enviar</button>
+        </li>
+
+    </form>

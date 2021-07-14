@@ -1,0 +1,18 @@
+#libros{
+    display: flex;
+    justify-content: left;
+    flex-flow: row wrap;
+    margin-left: 2%;
+}
+#libro{
+    width: 200px;
+    height: 320px;
+    border: ridge;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+img{
+    width: 150px;
+    height: 200px;
+}
